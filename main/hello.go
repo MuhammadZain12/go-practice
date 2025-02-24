@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	"example/hello/slice"
 )
 
 const spanish = "spanish"
@@ -27,5 +27,6 @@ func Hello(name, language string) string {
 }
 
 func main() {
-	fmt.Println(Hello("Zain", ""))
+	// fmt.Println(Hello("Zain", ""))
+	slice.TryingSliceCode()
 }
