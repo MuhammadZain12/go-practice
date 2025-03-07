@@ -1,7 +1,8 @@
 package main
 
 import (
-	"example/hello/slice"
+	"example/hello/structs"
+	"fmt"
 )
 
 const spanish = "spanish"
@@ -28,5 +29,6 @@ func Hello(name, language string) string {
 
 func main() {
 	// fmt.Println(Hello("Zain", ""))
-	slice.TryingSliceCode()
+	rectangle := structs.Rectangle{Width: 10, Height: 10}
+	fmt.Println(structs.Area(rectangle))
 }
