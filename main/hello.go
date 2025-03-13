@@ -1,9 +1,6 @@
 package main
 
-import (
-	"example/hello/structs"
-	"fmt"
-)
+import "fmt"
 
 const spanish = "spanish"
 const french = "french"
@@ -28,7 +25,5 @@ func Hello(name, language string) string {
 }
 
 func main() {
-	// fmt.Println(Hello("Zain", ""))
-	rectangle := structs.Rectangle{Width: 10, Height: 10}
-	fmt.Println(structs.Area(rectangle))
+	fmt.Println(Hello("Zain", ""))
 }
